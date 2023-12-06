@@ -1,0 +1,85 @@
+/* Write your code here. */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: black;
+  text-align: center;
+}
+.img {
+  color: blue;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.p1 {
+  color: white;
+}
+.tab {
+  background-color: blue;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 30vw;
+  margin: 10px;
+}
+.p2 {
+  background-color: green;
+  color: white;
+}
+
+.p3 {
+  background-color: yellow;
+  color: white;
+}
+.p4 {
+  background-color: red;
+  color: white;
+}
+.tab2 {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 30vw;
+  margin: 10px;
+  margin-left: 10px;
+}
+.tab3 {
+  background-color: yellow;
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 30vw;
+  margin: 10px;
+  margin-left: 10px;
+}
+.tab4 {
+  margin-left: 10px;
+  background-color: red;
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 30vw;
+  margin: 10px;
+}
+@media (width<768px) {
+  .tab {
+    width: 80vw;
+  }
+  .tab2 {
+    width: 80vw;
+  }
+  .tab3 {
+    width: 80vw;
+  }
+  .tab4 {
+    width: 80vw;
+  }
+}
